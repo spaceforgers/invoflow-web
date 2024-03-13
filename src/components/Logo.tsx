@@ -3,7 +3,7 @@ import logo from '@/images/logos/invoflow.png'
 
 export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
-    <div className="flex items-center">
+    <div className="flex items-center dark:invert">
       <Image
         src={logo}
         alt=""
