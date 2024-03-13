@@ -26,7 +26,7 @@ export function Footer() {
       <Container>
         <div className="flex flex-col items-center border-t border-gray-200 pb-12 pt-8 md:flex-row-reverse md:justify-between md:pt-6">
           <p className="mt-6 text-sm text-gray-500 md:mt-0 pb-16 md:pb-0">
-            Space &copy; Copyright {new Date().getFullYear()}. All rights reserved.
+            Copyright &copy; Space {new Date().getFullYear()}. All rights reserved.
           </p>
             <nav className="flex gap-8">
               <NavLinks />

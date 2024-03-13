@@ -4,6 +4,7 @@ import clsx from 'clsx'
 
 import { AppDemo } from '@/components/AppDemo'
 import { AppStoreLink } from '@/components/AppStoreLink'
+import { SpaceLogo } from './SpaceLogo'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { PhoneFrame } from '@/components/PhoneFrame'
@@ -108,8 +109,11 @@ export function Hero() {
               INVOFLOW
             </h1>
             <p className="text-4xl font-medium tracking-tight text-gray-900">
-              Where invoicing flows effortlessly.
+              Where invoicing <i>flows</i> effortlessly.
             </p>
+            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
+              <SpaceLogo />
+            </div>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <AppStoreLink />
             </div>

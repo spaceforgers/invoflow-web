@@ -3,53 +3,53 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How do I know the tips are good?',
+      question: 'How do I get support if I encounter any issues with the app?',
       answer:
-        'Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us.',
+        'We’re here to help! If you experience any difficulties or have questions about the app, please feel free to reach out to us. You can contact us through the app’s help section inside "Account", or send an email to our support address: support@spaceforgers.com. We will be more than happy to assist you.',
     },
     {
-      question: 'Isn’t this insider trading?',
+      question: 'Is there any limit to the total number of invoices, products or customers that I can create without subscribing?',
       answer:
-        'Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don’t even know.',
+        'Nope. Invoflow does not limit the number of invoices, products, categories or customers. You can create as much as you want!',
     },
     {
-      question: 'But isn’t insider trading illegal?',
+      question: 'On which platforms can I use Invoflow?',
       answer:
-        'Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here.',
-    },
-  ],
-  [
-    {
-      question: 'Do the people giving you tips realize what they are doing?',
-      answer:
-        'Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us.',
-    },
-    {
-      question: 'Where is Pocket based?',
-      answer:
-        'Let’s just say it’s not somewhere where the SEC is going to find us.',
-    },
-    {
-      question: 'Is there any age limit to trading on Pocket?',
-      answer:
-        'For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog.',
+        'Invoflow is available for iOS, iPadOS, watchOS and visionOS. Later this year a macOS version will be released. We have no plans to support Windows, Android or Web for the moment.',
     },
   ],
   [
     {
-      question: 'How did you get this on the App Store?',
+      question: 'How do I create an invoice using Invoflow?',
       answer:
-        'Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves.',
+        'To create an invoice, simply open the app and tap on the "+" button on the top! From there, you can fill in the necessary details such as customer information, products/services provided, and payment terms. Once complete, you can save or share the invoice with your client.',
     },
     {
-      question: 'How do I explain the money I withdraw from Pocket to the IRS?',
+      question: 'Can I delete permanentely any invoice, customer or product?',
       answer:
-        'This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns.',
+        'Of course! We offer a way to permanently delete any customer, invoice or product. To delete anything forever, it must first be archived, it is a security measure that we have added so that you do not accidentally delete something important. Once it is archived, you will have the option to delete it.',
     },
     {
-      question: 'How do I become an insider?',
+      question: 'Is my data secure with Invoflow?',
       answer:
-        'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work.',
+        'At Space we take privacy and security very seriously. It is not a joke. That’s why your data is synchronized at all times between all your Apple devices through iCloud, the only way to access it is from your iCloud account. And yes, everything is encrypted.',
+    },
+  ],
+  [
+    {
+      question: 'What does Invoflow+ offer?',
+      answer:
+        'Invoflow+ is a monthly or annual subscription, which gives you access to a greater number of graphs so you can see your income in more detail. It also offers you the option to export your invoices in both PDF and CSV. Future updates will add more features, which will be added to Invoflow+.',
+    },
+    {
+      question: 'Does this mean that all new features will only be part of Invoflow+?',
+      answer:
+        'No. We’re always thinking about the best subscription-free experience (that’s why we’ll never include ads or abusive pricing), so most new features will always be free. Invoflow+ is a way to support us to continue developing Invoflow.',
+    },
+    {
+      question: 'How can I make a feature request?',
+      answer:
+        'You have no idea how important it is for us that you give us any feedback. If you have any (or if you just want to talk to us!) please contact us at contact@spaceforgers.com, it is a real honor!',
     },
   ],
 ]
@@ -67,12 +67,12 @@ export function Faqs() {
             id="faqs-title"
             className="text-3xl font-medium tracking-tight text-gray-900"
           >
-            Frequently asked questions
+            Support
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            If you have anything else you want to ask,{' '}
+            Below you will find some frequently asked questions. If you have anything else you want to ask,{' '}
             <a
-              href="mailto:info@example.com"
+              href="mailto:support@spaceforgers.com"
               className="text-gray-900 underline"
             >
               reach out to us
