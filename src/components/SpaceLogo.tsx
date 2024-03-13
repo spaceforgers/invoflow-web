@@ -14,6 +14,7 @@ export function SpaceLogo({
     >
       <div className="flex items-center mb-4">
       <Image
+        className='dark:invert'
         src={logo}
         alt=""
         width={40}
