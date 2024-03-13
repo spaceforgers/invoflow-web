@@ -1,12 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
-
-import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import { TextField } from '@/components/Fields'
-import { Logomark } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
-import qrCode from '@/images/qr-code.svg'
 
 function QrCodeBorder(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
