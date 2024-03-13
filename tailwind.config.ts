@@ -3,6 +3,7 @@ import formsPlugin from '@tailwindcss/forms'
 import headlessuiPlugin from '@headlessui/tailwindcss'
 
 export default {
+  darkMode: 'media',
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontSize: {

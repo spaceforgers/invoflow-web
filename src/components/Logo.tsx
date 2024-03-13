@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from '@/images/logos/invoflowlogo.png'
+import logo from '@/images/logos/invoflow.png'
 
 export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -10,7 +10,7 @@ export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
         width={50}
         height={50}
       />
-        <h1 className="ml-4 font-semibold">Invoflow</h1>
+        <h1 className="ml-4 font-semibold dark:text-gray-50">Invoflow</h1>
       </div>
   )
 }

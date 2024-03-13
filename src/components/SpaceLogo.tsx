@@ -19,7 +19,7 @@ export function SpaceLogo({
         width={40}
         height={40}
       />
-        <p className="ml-4">Forged by Space</p>
+        <p className="ml-4 text-gray-950 dark:text-gray-50">Forged by Space</p>
       </div>
     </Link>
   )

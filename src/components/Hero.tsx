@@ -6,7 +6,7 @@ import { Container } from '@/components/Container'
 import { PhoneFrame } from '@/components/PhoneFrame'
 
 import Image from 'next/image'
-import logo from '@/images/logos/invoflowlogo.png'
+import logo from '@/images/logos/invoflow.png'
 
 function BackgroundIllustration(props: React.ComponentPropsWithoutRef<'div'>) {
   let id = useId()
@@ -84,13 +84,13 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <Image
-              className='mb-8 drop-shadow-[0_10px_30px_rgba(193,186,255,0.80)]'
+              className='mb-8 drop-shadow-[0_10px_30px_rgba(193,186,255,0.80)] dark:drop-shadow-[0_10px_30px_rgba(193,186,255,0.20)]'
               src={logo}
               alt=""
               width={100}
               height={100}
             />
-            <p className="text-4xl font-medium tracking-tight text-gray-900">
+            <p className="text-4xl font-medium tracking-tight text-gray-900 dark:text-gray-100">
               Where invoicing <i className="text-indigo-800">flows</i> effortlessly.
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">

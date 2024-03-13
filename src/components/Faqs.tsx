@@ -59,21 +59,21 @@ export function Faqs() {
     <section
       id="faqs"
       aria-labelledby="faqs-title"
-      className="border-t border-gray-200 py-20 sm:py-32"
+      className="border-t border-gray-200 dark:border-gray-800 py-20 sm:py-32"
     >
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             id="faqs-title"
-            className="text-3xl font-medium tracking-tight text-gray-900"
+            className="text-3xl font-medium tracking-tight text-gray-900 dark:text-gray-100"
           >
             Support
           </h2>
-          <p className="mt-2 text-lg text-gray-600">
+          <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
             Below you will find some frequently asked questions. If you have anything else you want to ask,{' '}
             <a
               href="mailto:support@spaceforgers.com"
-              className="text-gray-900 underline"
+              className="text-gray-900 dark:text-gray-100 underline"
             >
               reach out to us
             </a>
@@ -89,10 +89,10 @@ export function Faqs() {
               <ul role="list" className="space-y-10">
                 {column.map((faq, faqIndex) => (
                   <li key={faqIndex}>
-                    <h3 className="text-lg font-semibold leading-6 text-gray-900">
+                    <h3 className="text-lg font-semibold leading-6 text-gray-900 dark:text-gray-100">
                       {faq.question}
                     </h3>
-                    <p className="mt-4 text-sm text-gray-700">{faq.answer}</p>
+                    <p className="mt-4 text-sm text-gray-700 dark:text-gray-300">{faq.answer}</p>
                   </li>
                 ))}
               </ul>

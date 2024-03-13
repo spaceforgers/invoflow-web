@@ -6,22 +6,22 @@ export default function TermsOfUse() {
       <section
       id="privacy"
       aria-labelledby="privacy-title"
-      className="border-t border-gray-200 py-20 sm:py-32"
+      className="border-t border-gray-200  dark:border-gray-800 py-20 sm:py-32"
     >
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             id="faqs-title"
-            className="text-3xl font-medium tracking-tight text-gray-900"
+            className="text-3xl font-medium tracking-tight text-gray-900 dark:text-gray-100"
           >
             Terms of Use
           </h2>
-          <p>Last update: 13/03/2024</p>
+          <p className='text-gray-900 dark:text-gray-100'>Last update: 13/03/2024</p>
 
           <h3 className="pt-16 text-xl font-medium tracking-tight text-gray-500">
             Introduction
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
             Welcome to Space.
 
             These Terms of Service (“Terms”, “Terms of Service”) govern your use of our mobile application Invoflow operated by Javier Galera ("Space", "Company", "we", "our", "us").
@@ -36,7 +36,7 @@ export default function TermsOfUse() {
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
             Purchases
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           If you wish to purchase any product or service made available through Service (“Purchase”), you may be asked to supply certain information relevant to your Purchase including, without limitation, your credit card number, the expiration date of your credit card, your billing address, and your shipping information.
  
           You represent and warrant that: (i) you have the legal right to use any credit card(s) or other payment method(s) in connection with any Purchase; and that (ii) the information you supply to us is true, correct and complete.
@@ -51,21 +51,21 @@ export default function TermsOfUse() {
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Promotions
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           Any contests, sweepstakes or other promotions (collectively, “Promotions”) made available through Service may be governed by rules that are separate from these Terms of Service. If you participate in any Promotions, please review the applicable rules as well as our Privacy Policy. If the rules for a Promotion conflict with these Terms of Service, Promotion rules will apply.
           </p>
 
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Fee Changes
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           Space, in its sole discretion and at any time, may modify In-App Purchase fees for the In-App Purchases.
           </p>
 
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Content
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material (“Content”). You are responsible for Content that you post on or through Service, including its legality, reliability, and appropriateness.
  
           By posting Content on or through Service, You represent and warrant that: (i) Content is yours (you own it) and/or you have the right to use it and the right to grant us the rights and license as provided in these Terms, and (ii) that the posting of your Content on or through Service does not violate the privacy rights, publicity rights, copyrights, contract rights or any other rights of any person or entity. We reserve the right to terminate the account of anyone found to be infringing on a copyright.
@@ -80,7 +80,7 @@ export default function TermsOfUse() {
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Prohibited Uses
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           You may use Service only for lawful purposes and in accordance with Terms. You agree not to use Service:
  
           In any way that violates any applicable national or international law or regulation.
@@ -119,28 +119,28 @@ export default function TermsOfUse() {
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Analytics
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           We do not use third-party Service Providers to monitor and analyze the use of our Service.
           </p>
 
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           No Use By Minors
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           Service is intended only for access and use by individuals at least eighteen (18) years old. By accessing or using Invoflow, you warrant and represent that you are at least eighteen (18) years of age and with the full authority, right, and capacity to enter into this agreement and abide by all of the terms and conditions of Terms. If you are not at least eighteen (18) years old, you are prohibited from both the access and usage of Service.
           </p>
 
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Intellectual Property
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           Service and its original content (excluding Content provided by users), features and functionality are and will remain the exclusive property of Space and its licensors. Service is protected by copyright, trademark, and other laws of the United States and foreign countries. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of Space.
           </p>
 
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Copyright Policy
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           We respect the intellectual property rights of others. It is our policy to respond to any claim that Content posted on Service infringes on the copyright or other intellectual property rights (“Infringement”) of any person or entity.
  
           If you are a copyright owner, or authorized on behalf of one, and you believe that the copyrighted work has been copied in a way that constitutes copyright infringement, please submit your claim via email to hi@acutecalc.day, with the subject line: “Copyright Infringement” and include in your claim a detailed description of the alleged Infringement as detailed below, under “DMCA Notice and Procedure for Copyright Infringement Claims”
@@ -168,14 +168,14 @@ export default function TermsOfUse() {
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Error Reporting and Feedback
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           You may provide us directly at support@spaceforgers.com with information and feedback concerning errors, suggestions for improvements, ideas, problems, complaints, and other matters related to our Service (“Feedback”). You acknowledge and agree that: (i) you shall not retain, acquire or assert any intellectual property right or other right, title or interest in or to the Feedback; (ii) Space may have development ideas similar to the Feedback; (iii) Feedback does not contain confidential information or proprietary information from you or any third party; and (iv) Space is not under any obligation of confidentiality with respect to the Feedback. In the event the transfer of the ownership to the Feedback is not possible due to applicable mandatory laws, you grant Space and its affiliates an exclusive, transferable, irrevocable, free-of-charge, sub-licensable, unlimited and perpetual right to use (including copy, modify, create derivative works, publish, distribute and commercialize) Feedback in any manner and for any purpose.
           </p>
 
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Links To Other Web Sites
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           Our Service may contain links to third party web sites or services that are not owned or controlled by Space.
 
           Space has no control over, and assumes no responsibility for the content, privacy policies, or practices of any third party web sites or services. We do not warrant the offerings of any of these entities/individuals or their websites.
@@ -188,7 +188,7 @@ export default function TermsOfUse() {
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Disclaimer Of Warranty
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           THESE SERVICES ARE PROVIDED BY SPACE ON AN “AS IS” AND “AS AVAILABLE” BASIS. SPACE MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE OPERATION OF THEIR SERVICES, OR THE INFORMATION, CONTENT OR MATERIALS INCLUDED THEREIN. YOU EXPRESSLY AGREE THAT YOUR USE OF THESE SERVICES, THEIR CONTENT, AND ANY SERVICES OR ITEMS OBTAINED FROM US IS AT YOUR SOLE RISK.
  
           NEITHER SPACE NOR ANY PERSON ASSOCIATED WITH SPACE MAKES ANY WARRANTY OR REPRESENTATION WITH RESPECT TO THE COMPLETENESS, SECURITY, RELIABILITY, QUALITY, ACCURACY, OR AVAILABILITY OF THE SERVICES. WITHOUT LIMITING THE FOREGOING, NEITHER SPACE NOR ANYONE ASSOCIATED WITH SPACE REPRESENTS OR WARRANTS THAT THE SERVICES, THEIR CONTENT, OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE SERVICES WILL BE ACCURATE, RELIABLE, ERROR-FREE, OR UNINTERRUPTED, THAT DEFECTS WILL BE CORRECTED, THAT THE SERVICES OR THE SERVER THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS OR THAT THE SERVICES OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE SERVICES WILL OTHERWISE MEET YOUR NEEDS OR EXPECTATIONS.
@@ -201,14 +201,14 @@ export default function TermsOfUse() {
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Limitation Of Liability
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           EXCEPT AS PROHIBITED BY LAW, YOU WILL HOLD US AND OUR OFFICERS, DIRECTORS, EMPLOYEES, AND AGENTS HARMLESS FOR ANY INDIRECT, PUNITIVE, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGE, HOWEVER IT ARISES (INCLUDING ATTORNEYS' FEES AND ALL RELATED COSTS AND EXPENSES OF LITIGATION AND ARBITRATION, OR AT TRIAL OR ON APPEAL, IF ANY, WHETHER OR NOT LITIGATION OR ARBITRATION IS INSTITUTED), WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE, OR OTHER TORTIOUS ACTION, OR ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, INCLUDING WITHOUT LIMITATION ANY CLAIM FOR PERSONAL INJURY OR PROPERTY DAMAGE, ARISING FROM THIS AGREEMENT AND ANY VIOLATION BY YOU OF ANY FEDERAL, STATE, OR LOCAL LAWS, STATUTES, RULES, OR REGULATIONS, EVEN IF SPACE HAS BEEN PREVIOUSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. EXCEPT AS PROHIBITED BY LAW, IF THERE IS LIABILITY FOUND ON THE PART OF SPACE, IT WILL BE LIMITED TO THE AMOUNT PAID FOR THE PRODUCTS AND/OR SERVICES, AND UNDER NO CIRCUMSTANCES WILL THERE BE CONSEQUENTIAL OR PUNITIVE DAMAGES. SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF PUNITIVE, INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE PRIOR LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU.
           </p>
 
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Governing Law
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           These Terms shall be governed and construed in accordance with the laws of Spain without regard to its conflict of law provisions.
  
           Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service and supersede and replace any prior agreements we might have had between us regarding Service.
@@ -217,7 +217,7 @@ export default function TermsOfUse() {
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Governing Law
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           These Terms shall be governed and construed in accordance with the laws of Spain without regard to its conflict of law provisions.
  
           Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service and supersede and replace any prior agreements we might have had between us regarding Service.
@@ -226,14 +226,14 @@ export default function TermsOfUse() {
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Changes to Service
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           We reserve the right to withdraw or amend our Service, and any service or material we provide via Service, in our sole discretion without notice. We will not be liable if for any reason all or any part of Service is unavailable at any time or for any period. From time to time, we may restrict access to some parts of Service, or the entire Service, to users, including registered users.
           </p>
 
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Amendments to Terms
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           We may amend Terms at any time by posting the amended terms on this site. It is your responsibility to review these Terms periodically.
  
           Your continued use of the Platform following the posting of revised Terms means that you accept and agree to the changes. You are expected to check this page frequently so you are aware of any changes, as they are binding on you.
@@ -244,14 +244,14 @@ export default function TermsOfUse() {
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Waiver and Severability
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           No waiver by Space of any term or condition set forth in Terms shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition, and any failure of Space to assert a right or provision under Terms shall not constitute a waiver of such right or provision.
           </p>
 
           <h3 className="mt-6 text-xl font-medium tracking-tight text-gray-500">
           Contact
           </h3>
-          <p className="mt-1 text-gray-400">
+          <p className="mt-1 text-gray-400 dark:text-gray-600">
           Contact us to send your feedback, comments or requests for technical support at contact@spaceforgers.com
           </p>
         </div>
