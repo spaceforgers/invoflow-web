@@ -1,9 +1,9 @@
 import { Hero } from '@/components/Hero'
 
-export default function Home() {
+export default function PrivacyPolicy() {
   return (
     <>
-      <Hero />
+      privacy Policy
     </>
   )
 }
