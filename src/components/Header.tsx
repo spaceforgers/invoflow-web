@@ -10,10 +10,10 @@ export function Header() {
   return (
     <header>
       <nav>
-        <Container className="relative z-50 flex justify-between py-8">
-          <div className="relative z-10 flex items-center gap-16">
+        <Container className="relative z-50 flex justify-between py-8 align-middle">
+          <div className="inline-block align-middle z-10 gap-16">
             <Link href="/" aria-label="Home">
-              <Logo className="h-10 w-auto" />
+              <Logo className="w-auto" />
             </Link>
           </div>
           <div className="flex items-center gap-6">
