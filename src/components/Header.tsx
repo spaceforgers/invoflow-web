@@ -17,7 +17,7 @@ export function Header() {
             </Link>
           </div>
           <div className="flex items-center gap-6">
-            <Button href="#" className="lg:block">
+            <Button href="https://apps.apple.com/es/app/invoflow/id6469032967" className="lg:block">
               Download
             </Button>
           </div>

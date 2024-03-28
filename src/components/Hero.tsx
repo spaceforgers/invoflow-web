@@ -84,7 +84,7 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <Image
-              className='mb-8 drop-shadow-[0_10px_30px_rgba(193,186,255,0.80)] dark:drop-shadow-[0_10px_30px_rgba(193,186,255,0.20)]'
+              className='mb-8'
               src={logo}
               alt=""
               width={100}
