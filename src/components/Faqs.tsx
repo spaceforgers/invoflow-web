@@ -8,7 +8,7 @@ const faqs = [
         'We’re here to help! If you experience any difficulties or have questions about the app, please feel free to reach out to us. You can contact us through the app’s help section inside "Account", or send an email to our support address: support@spaceforgers.com. We will be more than happy to assist you.',
     },
     {
-      question: 'Is there any limit to the total number of invoices, products or customers that I can create without subscribing?',
+      question: 'Is there any limit to the total number of invoices, products or customers that I can create?',
       answer:
         'Nope. Invoflow does not limit the number of invoices, products, categories or customers. You can create as much as you want!',
     },
@@ -36,6 +36,7 @@ const faqs = [
     },
   ],
   [
+    /*
     {
       question: 'What does Invoflow+ offer?',
       answer:
@@ -46,6 +47,7 @@ const faqs = [
       answer:
         'No. We’re always thinking about the best subscription-free experience (that’s why we’ll never include ads or abusive pricing), so most new features will always be free. Invoflow+ is a way to support us to continue developing Invoflow.',
     },
+    */
     {
       question: 'How can I make a feature request?',
       answer:
