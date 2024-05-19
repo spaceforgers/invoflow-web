@@ -1,6 +1,6 @@
 import { Container } from '@/components/Container'
 
-export const releaseNotes = [
+const releaseNotes = [
   {
     version: '1.1',
     date: '22-05-2024',
