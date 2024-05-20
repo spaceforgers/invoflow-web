@@ -3,7 +3,7 @@ import { Container } from '@/components/Container'
 const releaseNotes = [
   {
     version: '1.1',
-    date: '22-05-2024',
+    date: '20-05-2024',
     notes: [
       {
         category: '🚀 New Features & Enhancements',
