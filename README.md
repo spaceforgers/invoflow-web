@@ -1,10 +1,10 @@
 # Invoflow Website
 
-This repository contains the source code for the marketing website of the Invoflow iOS app. Invoflow is an app designed to streamline the invoice management process, automate workflows, and improve business productivity.
+This repository contains the source code for the marketing website of the Invoflow app. Invoflow is an app designed to streamline the invoice management process, automate workflows, and improve business productivity.
 
 Features
 
-	•	Information about Invoflow: Learn about the features and benefits of the Invoflow iOS app.
+	•	Information about Invoflow: Learn about the features and benefits of the Invoflow app.
 	•	Download Links: Access the App Store link to download the Invoflow app.
 	•	Contact Information: Get in touch with the support team for assistance.
 
@@ -37,7 +37,7 @@ The website will be accessible at http://localhost:3000.
 
 Usage
 
-The website provides detailed information about the InvoFlow iOS app. Visitors can:
+The website provides detailed information about the InvoFlow app. Visitors can:
 
 	•	Explore Features: Discover how Invoflow can help manage invoices and automate workflows.
 	•	Download the App: Find direct links to download Invoflow from the App Store.
