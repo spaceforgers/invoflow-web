@@ -2,6 +2,20 @@ import { Container } from '@/components/Container'
 
 const releaseNotes = [
   {
+    version: '2.0.1',
+    date: '28-11-2024',
+    notes: [
+      {
+        category: '🔧 Fixes & Improvements',
+        color: 'bg-yellow-500 bg-opacity-40',
+        items: [
+          { title: 'Issue with CloudKit', description: 'An issue with CloudKit not being in the correct environment on different devices has been solved.' },
+          { title: 'Notification scheduling not working properly', description: 'Resolved an issue with notifications not scheduling as expected.' }
+        ]
+      }
+    ]
+  },
+  {
     version: '2.0',
     date: '27-11-2024',
     notes: [
