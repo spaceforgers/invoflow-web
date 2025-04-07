@@ -2,6 +2,20 @@ import { Container } from '@/components/Container'
 
 const releaseNotes = [
   {
+    version: '2.0.2',
+    date: '8-04-2025',
+    notes: [
+      {
+        category: '🔧 Fixes & Improvements',
+        color: 'bg-yellow-500 bg-opacity-40',
+        items: [
+          { title: 'Share your invoice easier', description: 'Added option to share an invoice via mail directly to the customer.' },
+          { title: 'Simplified validation', description: 'Removed surname validation when editing a customer.' }
+        ]
+      }
+    ]
+  },
+  {
     version: '2.0.1',
     date: '28-11-2024',
     notes: [
